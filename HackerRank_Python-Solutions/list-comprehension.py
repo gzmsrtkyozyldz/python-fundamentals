@@ -13,7 +13,6 @@
 # 2
 # Sample Output
 # [[0, 0, 0], [0, 0, 1], [0, 1, 0], [1, 0, 0], [1, 1, 1]]
-
 x = int(input('Please enter a number:'))
 y = int(input('Please enter a number:'))
 z = int(input('Please enter a number:'))
