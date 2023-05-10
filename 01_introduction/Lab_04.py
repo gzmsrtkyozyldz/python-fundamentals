@@ -25,7 +25,6 @@
 """
 # endregion
 # region Example 1 even
-"""
 um_even = 0
 sum_add= 0
 for i in range(1,101):
@@ -34,12 +33,9 @@ for i in range(1,101):
     else:
         sum_add += i
 print(f'Çift sayıların toplamı:{sum_even}\nTek sayıların toplamı: {sum_add} ')
-
-"""
 # endregion
 #region Homework
-"""
-Kullanıcıdan başlangıç ve adım miktarlarını alalım. Bu şartlara bağlı kalarak her bir adımdaki sayının karesi alarak ekrana yazalım.
+#Kullanıcıdan başlangıç ve adım miktarlarını alalım. Bu şartlara bağlı kalarak her bir adımdaki sayının karesi alarak ekrana yazalım.
 #çıktıyı şu formatta istiyorum 1. adımdaki sonuç:9,16,25
 baslangic = int(input("Sayı giriniz: "))
 bitis = int(input("Sayı giriniz: "))
@@ -48,10 +44,8 @@ counter = 1
 for item in range(baslangic, bitis, adim):
     print(f'{counter}. adımda ==> {item ** 2}')
     counter += 1
-"""
 # endregion
 # region Example 2 is_prime
-"""
 #Kullancıdan alınan sayı asal mı değil mi?
 sayi = int(input('sayı: '))
 asalmi = True
@@ -68,10 +62,8 @@ if asalmi:
     print('sayı asaldır.')
 else:
     print('sayı asal değildir.')
-"""
 # endregion
 # region Example 3 Counter
-"""
 #0-1000 arasındaki sayıları 10'ar dolaşalım 10'ar toplayalım Her bir adımda ki sayıları toplayarak toplamı kullanıcya gösterelim.
 i = 0
 counter = 1
@@ -79,30 +71,23 @@ for i in range(0, 1001, 10):
 
     print(f'{counter}. adımda ==>  {i}')
     counter += 1
-"""
 # endregion
 # region Example 4 The Multiplication Table
-"""
 #çarpım tablosu 1den 10'a kadar iç içe for loop
 for i in range(1, 11):
     print("---------")
     for j in range(1, 11):
         print("{} * {} = {}".format(i, j, i * j))
-"""
 # endregion
 # region Example 5 kare
-"""
 #'*' sembollerini kullanarak kare sembolü
 kenar = int(input("kare kenar sayısını giriniz -> "))
 for i in range(0, kenar):
   for j in range(0, kenar):
     print('*', end='')
   print(' ')
-  
-"""
 # endregion
 # region Example 6 üçgen
-"""
   #* dik üçgen yapın
 kenar = int(input("üçgen kenar sayısını giriniz -> "))
 for i in range(0, kenar):
@@ -110,29 +95,23 @@ for i in range(0, kenar):
       if j <= i:
          print('*', end='')
   print(' ')
-"""
 # endregion
 # region Example 7 Append
-"""
 liste = [ ]
 for i range (0, 10):
     liste.append(i)
 print(liste)
-"""
 # endregion
 # region Example 8 Random Number
-"""
 from random import randint
 lst = []
 for i in range(0, 10):
     random_number = randint(0, 101)
     lst.append(random_number)
 print(lst)
-"""
 # endregion
 # region Example 9 Mod 3 and **
-"""
-0-100 arasında rastgele 10 adet sayı üretilen sayılardan 3 tam bölünenleri karesi
+#-100 arasında rastgele 10 adet sayı üretilen sayılardan 3 tam bölünenleri karesi
 from random import randint
 lst = []
 for i in range(0, 10):
@@ -141,10 +120,8 @@ for i in range(0, 10):
          print(random_number)
          lst.append(random_number)
 print(lst)
-"""
 # endregion
 # region Homework
-"""
 #kullanıcıdan bir söz öbeği alalım
 #örneğin merhabalar ben burak yılmaz
 #yukarıda ki örnek söz öbeğinde ki her bir harfi bir listeye ekleyelim
@@ -156,7 +133,7 @@ print(lst)
 #söz öbeğinde ki her bir harfi döngüye itarate ederek yapın
 
 a = []
-name = "Merhabalar Ben Burak Yılmaz"
+name = "Merhabalar Ben Dumbledore"
 for i in range(0, len(name)):
     a.append(name[i])
 print(a)
